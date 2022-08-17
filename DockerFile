@@ -1,0 +1,2 @@
+FROM php:cli-alpine
+CMD [ "php", "-S", "0:8080" , "-t" , "/var/www/html" ]
